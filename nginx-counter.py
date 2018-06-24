@@ -10,8 +10,10 @@ class Nginx_Log_Analyzer():
         """ Initializing """
 
         self.summery_results = {
-                "",
-                }
+            "requests": {},
+            "ips": {},
+            "useragents": {}
+        }
 
     def Log_Analyze(self):
         print "NGINX Log Analyze"
