@@ -14,6 +14,10 @@ class Nginx_Log_Analyzer():
             "ips": {},
             "useragents": {}
         }
+        self.topcount = topcount
+
+        self.reafile = readfile
+        self.writefile = writefile
 
     def Log_Analyze(self):
         print "NGINX Log Analyze"
